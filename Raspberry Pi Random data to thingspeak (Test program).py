@@ -13,7 +13,7 @@ def thingspeak():
     #Sends the data to the this URL
     URL = 'https://api.thingspeak.com/update?api_key='
     # My write API key
-    KEY = '7SZT6JKQ0C30UI2Q'
+    KEY = ''
     # My two fields on my channel to display the random values 
     HEADER = '&field1={}&field2={}'.format(val, val)
     new_URL = URL + KEY + HEADER # https://api.thingspeak.com/update?api_key=7SZT6JKQ0C30UI2Q&field1={}&field2={}
