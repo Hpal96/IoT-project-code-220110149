@@ -11,7 +11,7 @@ from grove.display.jhd1802 import JHD1802 # Library for grove LCD display
 sensor = DHT("11", 5)
 
 # Here's the URL that I want to sent the data to 
-URL = 'https://api.thingspeak.com/update?api_key=7SZT6JKQOC30UI2Q'
+URL = 'https://api.thingspeak.com/update?api_key='
 
 # Used to help with synchronisation of both functions 
 lock = threading.Lock()
